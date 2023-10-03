@@ -1,7 +1,8 @@
 # ANOTACIONES LARAVEL/COMPOSER
 
 
-> //CREA UN NUEVO PROYECTO 
+> //CREA UN NUEVO PROYECTO
+
     composer create-project laravel/laravel agencia
 
 > Una vez instalado nos tenemos que mover dentro de la carpeta "agencia"
