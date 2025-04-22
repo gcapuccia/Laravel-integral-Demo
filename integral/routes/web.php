@@ -17,8 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/* ENRUTADOR
+ /* ENRUTADOR */
 Route::get('/Manzanas', function () {//esto en un enrutador
-    return '<h1>Esto es una especie de enrutador... en este caso devolvera el estring con la siguiente funcion</h1>'; 
-}); */
-
+    $nombre = 'Guido';
+    $numero = 7;
+    return view('Manzanas', 
+    ['nombreenvista' => $nombre ,
+     'numeroenvista'=>$numero
+    ]);
+});
+ 
