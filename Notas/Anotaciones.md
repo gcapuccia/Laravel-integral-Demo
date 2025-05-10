@@ -55,6 +55,18 @@
 
 
 
+
+ # Fuera del Curso, comandos Aprendidos
+
+ > Sube las migraciones a la DB
+  php artisan migrate 
+
+ > Crear Controlador y model CRUD
+ php artisan make:controller TaskControler --resource --model=Task
+
+
+
+
 > ------------------------------------------------------------------------------------
 #anotaciones varias
 
@@ -69,3 +81,5 @@
 
  > ///////	REPOSITORIO CURSO
  https://github.com/exegeses/laravel-60323
+
+
